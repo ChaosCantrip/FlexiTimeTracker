@@ -1,10 +1,18 @@
 import "@/styles/global/master.css";
+import Header from "./Header";
+import Footer from "./Footer";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) 
 {
     return (
         <html lang="en">
-            <body>{children}</body>
+            <body>
+                <Header />
+                <main>
+                    {children}
+                </main>
+                <Footer />
+            </body>
         </html>
     );
 }
