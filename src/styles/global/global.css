@@ -9,3 +9,7 @@ html, body {
     height: 100%;
     background-color: var(--cpcm-base);
 }
+
+::selection {
+    background-color: color-mix(in srgb, var(--cpcm-overlay2) 30%, transparent);
+}
