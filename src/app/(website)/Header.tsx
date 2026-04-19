@@ -7,7 +7,7 @@ export default function Header()
         <header className={styles.header}>
             <h1>FlexiTimeTracker</h1>
             <div className={styles.nav}>
-                <Link href="/">Home</Link>
+                <Link href="/">Weekly Overview</Link>
             </div>
         </header>
     );
