@@ -1,0 +1,34 @@
+.title_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date_control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    background-color: var(--cpcm-surface0);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.date_control p {
+    padding: 1rem 0rem;
+}
+
+.arrow_button {
+    background: var(--cpcm-surface1);
+    color: var(--cpcm-text);
+    border: none;
+    cursor: pointer;
+    padding: 1rem 0.5rem;
+    font-size: 1.2rem;
+}
+
+.arrow_button:hover {
+    background-color: var(--cpcm-surface2);
+}
