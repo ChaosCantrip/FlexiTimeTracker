@@ -1,4 +1,4 @@
-name: goodboypoints
+name: flexitimetracker
 
 services:
   mongo:
