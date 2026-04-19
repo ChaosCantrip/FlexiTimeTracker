@@ -1,4 +1,31 @@
 .header {
-    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1rem 2rem;
     background-color: var(--cpcm-mantle);
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav a {
+    color: var(--cpcm-text);
+    font-weight: 700;
+    background-color: var(--cpcm-surface0);
+    padding: 0.5rem 1rem;
+    flex: 1;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.nav a:hover {
+    background-color: var(--cpcm-surface1);
 }
